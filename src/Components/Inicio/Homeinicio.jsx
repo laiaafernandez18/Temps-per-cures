@@ -1,9 +1,12 @@
 import React from 'react'
+import VideoPrincipal from './VideoPrincipal'
 
-function Homeinicio() {
+function HomeInicio() {
   return (
-    <div>iniciohome</div>
+    <div>
+      <VideoPrincipal/>
+    </div>
   )
 }
 
-export default Homeinicio
+export default HomeInicio
